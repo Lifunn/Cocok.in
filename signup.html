@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocok.in - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="login-body">
+    <div class="login-container signup-container">
+        <h2>Create Account</h2>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+        <form id="signupForm">
+            <div class="input-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" required>
+            </div>
+            <button type="submit" class="login-button">Sign Up</button>
+        </form>
+        <div class="social-login">
+            <p>Or sign up with</p>
+            <button class="google-login">G</button>
+            <button class="apple-login"></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
